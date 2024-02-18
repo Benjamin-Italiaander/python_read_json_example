@@ -8,10 +8,10 @@ import json
 language = 'NL'
 print(language)
 
-# Opening JSON file
+# Defining JSON file to var f
 f = open('content.json')
  
-# returns JSON object as a dictionary in var data
+# load var f to json.load object as a dictionary in data
 data = json.load(f)
 
 # Reading HEADER from language NL  
